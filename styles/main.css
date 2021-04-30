@@ -438,7 +438,7 @@ font-family: 'Roboto', sans-serif; */
     margin-top: 15px;
 }
 
-.social-media__image{
+.social-media__icon{
     margin-left: 25px;
     filter: brightness(0) invert(1);
 }
