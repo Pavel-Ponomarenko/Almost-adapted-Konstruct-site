@@ -229,15 +229,15 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .about__image--plan-bg{
-    background: url(/images/backgrounds/plan-background.png) no-repeat center/cover;
+    background: url(../images/backgrounds/plan-background.png) no-repeat center/cover;
 }
 
 .about__image--manage-bg{
-    background: url(/images/backgrounds/manage-background.png) no-repeat center/cover;
+    background: url(../images/backgrounds/manage-background.png) no-repeat center/cover;
 }
 
 .about__image--build-bg{
-    background: url(/images/backgrounds/build-background.png) no-repeat center/cover;
+    background: url(../images/backgrounds/build-background.png) no-repeat center/cover;
 }
 
 .about__card-title{
@@ -297,17 +297,17 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .services__card--project-bg{
-    background: url(/images/icons/penciles.png) no-repeat;
+    background: url(../images/icons/penciles.png) no-repeat;
     background-position: top 38px left 23px;
 }
 
 .services__card--structure-bg{
-    background: url(/images/icons/shop.png) no-repeat;
+    background: url(../images/icons/shop.png) no-repeat;
     background-position: top 38px left 23px;
 }
 
 .services__card--factory-bg{
-    background: url(/images/icons/building.png) no-repeat;
+    background: url(../images/icons/building.png) no-repeat;
     background-position: top 38px left 23px;
 }
 
@@ -322,7 +322,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .mailing--background{
-    background: url(/images/backgrounds/mailing-background.png) no-repeat center/cover;
+    background: url(../images/backgrounds/mailing-background.png) no-repeat center/cover;
 }
 
 .mailing__title{
