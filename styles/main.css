@@ -1,15 +1,12 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
-
 /* default=================================================== */
- *{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
  }
 
  .wrap{
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +117,7 @@ font-family: 'Roboto', sans-serif; */
     z-index: 1;
     display: none;
     top: calc(50% - 14px);
-    right: 10%;
+    right: 30px;
     width: 30px;
     height: 28px;
     cursor: pointer;
@@ -269,7 +266,7 @@ font-family: 'Roboto', sans-serif; */
 
 .services__text{
     width: 406px;
-    font-size: 11px;
+    font-size: 13px;
     color: #48555b;
     line-height: 23px;
 }
@@ -414,7 +411,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
 }
 
-.contact__adress{
+.contact__address{
     width: 141px;
     height: 150px;
     display: flex;
