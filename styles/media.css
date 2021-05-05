@@ -1,11 +1,30 @@
-@media (max-width: 768px){
+@media (max-width: 520px){
 
     .wrap{
         width: 100%;
     }
 
+    .container {
+        padding: 30px;
+    }
+
+    .menu__logo {
+        text-align: left;
+    }
+
+
+    .header__title {
+        font-size: 42px;
+    }
+
+    .header__text{
+        font-size: 20px;
+    }
+
     .nav{
         order: -1;
+        padding-left: 30px;
+        padding-top: 29px;
     }
 
     .menu {
@@ -20,20 +39,35 @@
         width: 100%;
     }
 
-    .about__image{
-        width: 85%;
-        margin: 10px 0;
+    .about__subtitle {
+        margin-bottom: 10px;
+    }
+
+    .about__text {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 
     .about__card {
         width: 100%;
+        flex-direction: column;
+    }
+
+    .about__image {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 0px;
     }
 
     .services__text{
         width: 100%;
-        margin-top: 40px;
+        margin-top: 30px;
+        font-size: 16px;
     }
 
+    .services__cards {
+        padding-top: 15px;
+    }
     .button{
         margin-top: 25px;
     }
@@ -43,17 +77,27 @@
         margin: 10px 0;
     }
 
-    .newsletter{
-        flex-direction: column;
+    .mailing {
+        padding-top: 30px;
     }
 
-    .email{
-        width: 100%;
+    .newsletter{
+        flex-direction: column;
     }
 
     .button--newsletter{
         width: 100%;
         margin: 0;
+    }
+    
+    .newsletter__content{
+        width: 70%;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .email {
+        width: 100%;
     }
     
     .newsletter__content{
@@ -65,148 +109,182 @@
         margin-right: 0px;
     }
     
-    .company{
-        width: 100%;
-        padding-bottom: 20px;    }
-
-    .links{
-        width: 100%;
-        padding-bottom: 20px;
-    }
-
     .footer__body{
+        width: 100%;
         flex-wrap:  wrap;
         justify-content: space-between;
-        padding: 20px 10px 40px 20px;
     }
 
-    .footer__contact__text{
+    .footer__lists {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .company__text {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .links {
         width: 100%;
     }
 
-    .contact__social-media{
-        display: flex;
-        
-    }
-}
-
-@media (height: 1024px){
-    .about__card{
+    .footer__contact {
+        width: 100%;
+        align-items: center;
         justify-content: space-between;
     }
 
-    .about__image{
-        width: 200px;
-    }
-
-    .services__cards {
-        flex-wrap: nowrap;
-        padding-top: 50px;
-    }
-
-    .email{
-        width: 300px;
-    }
-
-    .button--newsletter{
-        width: 300px;
-    }
-    
-    .newsletter__content{
-        flex-direction: column;
-        margin-top: 10px;
-    }
-
-    .company{
-        width: 100%;
-    }
-
-    .links{
-        width: 100%;
-    }
-    .footer__contact{
-        width: 100%;
+    .contact__social-media {
+        padding-right: 60px;
     }
 }
 
-
-@media (width: 1024px){
-
+@media (min-width: 520px) and (max-width: 768px) {
+    
     .wrap{
         width: 100%;
     }
 
+    .container {
+        padding: 30px;
+    }
+
+    .menu__logo {
+        text-align: left;
+    }
+
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__text{
+        font-size: 23px;
+    }
+
+    .nav{
+        order: -1;
+        padding-left: 30px;
+        padding-top: 29px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
     .about__info{
         width: 100%;
-        margin: 15px 0;
     }
 
-    .about__card{
-        /* width: 100%; */
-        justify-content: space-between;
+    .about__subtitle {
+        margin-bottom: 10px;
     }
 
-    .about__image{
-        width: 260px;
+    .about__text {
+        font-size: 16px;
+        margin-bottom: 10px;
     }
 
-    .button{
-        margin: 10px 0 0;
+    .about__card {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .about__image {
+        width: 47%;
+        margin-bottom: 10px;
+        margin-left: 0px;
     }
 
     .services__text{
-        font-size: 14px;
+        width: 100%;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .services__cards {
+        padding-top: 15px;
+        justify-content: space-around;
+    }
+
+    .button{
+        margin-top: 25px;
     }
 
     .services__card{
-        width: 100%;
-        margin-right: 0;
-        margin-bottom: 10px;
+        width: 47%;
+        margin: 10px 0;
+    }
+
+    .mailing {
+        padding-top: 30px;
     }
 
     .newsletter{
         flex-direction: column;
     }
 
-    .email{
-        width: 460px;
-    }
-
     .button--newsletter{
-        width: 460px;
+        width: 100%;
         margin: 0;
     }
     
     .newsletter__content{
+        width: 70%;
         flex-direction: column;
-        margin-top: 10px;
+        margin-top: 15px;
     }
 
-    .company {
-        padding-right: 15px;
+    .email {
+        width: 100%;
+    }
+    
+    .newsletter__subtitle {
+        margin-right: 0px;
     }
 
-    .company__text {
-        width: 240px;
+    .footer__body {
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    .links{
-        justify-content: space-between;
+    .footer__contact {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1055px) {
+    .about__info {
         width: 100%;
     }
 
-    .footer__body{
-        flex-wrap: nowrap;
-        justify-content: space-between;
-    }
-
-    .footer__contact{
+    .about__card {
         width: 100%;
-        justify-self: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
-    .footer__contact__text{
-        width: 220px;
+    .about__image {
+        width: 30%;
+        margin-top: 15px;
+    }
+
+    .services__cards {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .services__card {
+        width: 30%;
+    }
+
+    .mailing {
+        padding-top: 50px;
     }
 }
